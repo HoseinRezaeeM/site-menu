@@ -1,0 +1,61 @@
+.parent{  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ 
+  
+}
+body{
+  background: url(./blank-white-screen-laptop-on-a-white-table-in-the-office-a-working-concept-using-technology-notebook-smartphones-devices-copy-space-on-right-for-design-or-text-closeup-gray-and-blur-background-photo.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  
+  
+  
+}
+.parent div{
+ padding: 1px;
+ margin-top: 40px;
+ display: flex;
+ flex-direction: row;
+ 
+}
+
+a{
+  display: flex;
+  color: rgb(11, 11, 11);
+  background-color: rgb(233, 235, 235);
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  font-family:   Times;
+  font-weight: bolder;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top:10px ;
+  padding-bottom: 10px;
+ 
+
+}
+p{
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+img{
+  height: 17px;
+ padding-right:5px ;
+}
+
+a:hover{
+  background-color: rgb(252, 0, 151);
+  color: #fdfcfc;
+}
