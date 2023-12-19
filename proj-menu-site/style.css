@@ -15,28 +15,38 @@ body{
   
   
 }
+
 .parent div{
  padding: 1px;
- margin-top: 40px;
  display: flex;
  flex-direction: row;
  
 }
+#fi,#bo,#en,#ge,#ho{
+  display: flex;
+  padding-right: 5px;
+ display: flex;
+ justify-content: center;
+    padding-bottom: 3px;
+    
+}
 
 a{
   display: flex;
+  justify-content: center;
   color: rgb(11, 11, 11);
   background-color: rgb(233, 235, 235);
   text-decoration: none;
   text-align: center;
   align-items: center;
   font-size: 15px;
-  font-family:   Times;
+  font-family:sans-serif;
   font-weight: bolder;
   padding-right: 50px;
   padding-left: 50px;
   padding-top:10px ;
   padding-bottom: 10px;
+  margin-top: 30px;
  
 
 }
@@ -45,7 +55,7 @@ p{
   text-align: center;
   text-transform: uppercase;
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 
